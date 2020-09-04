@@ -13,6 +13,6 @@ public class Parrot extends Bird {
 
     @Override
     public int getValue() {
-        return 0;
+        return 20;
     }
 }
