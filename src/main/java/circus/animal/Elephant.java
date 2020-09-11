@@ -1,6 +1,10 @@
 package circus.animal;
 
 public class Elephant extends Animal {
+    public Elephant(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "My name is " + name + ". I am an Elephant!";
@@ -14,10 +18,6 @@ public class Elephant extends Animal {
     @Override
     public String speak() {
         return toString() + ". I am the strongest";
-    }
-
-    public Elephant(String name) {
-        this.name = name;
     }
 
 }
